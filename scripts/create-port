@@ -1,0 +1,3 @@
+#!/bin/bash
+
+quantum port-create mynet --device_id=foobar

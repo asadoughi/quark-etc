@@ -1,0 +1,4 @@
+#!/bin/bash
+
+curl -ik -XPOST -d '{"ip_address": {"network_id": "f3e0a014-2667-4204-85f1-9b67c51d681f", "device_id": "foobar"}}' -H "Content-Type: application/json" -H "X-Auth-Project-Id: nova" -H "X-Auth-Token: admin:nova" http://127.0.0.1:9696/v2.0/ip_addresses
+echo;

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+curl -ik -XPOST -d '{"ip_address": {"port_id": "73671110-7d41-40a7-9555-b341725433e0"}}' -H "Content-Type: application/json" -H "X-Auth-Project-Id: nova" -H "X-Auth-Token: admin:nova" http://127.0.0.1:9696/v2.0/ip_addresses
+echo;

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+curl -ik -XGET -d '{"ip_address": {}}' -H "Content-Type: application/json" -H "X-Auth-Project-Id: nova" -H "X-Auth-Token: admin:nova" http://127.0.0.1:9696/v2.0/ip_addresses
+echo;

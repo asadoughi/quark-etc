@@ -1,0 +1,4 @@
+#!/bin/bash
+
+curl -ik -XPUT -d '{"ip_address": {"port_ids": ["24be99e0-883e-47ab-a5b2-88fcc1426904"]}}' -H "Content-Type: application/json" -H "X-Auth-Project-Id: nova" -H "X-Auth-Token: admin:nova" http://127.0.0.1:9696/v2.0/ip_addresses/a81b6f-15c9-4539-a49b-78672adaab29.json
+echo;

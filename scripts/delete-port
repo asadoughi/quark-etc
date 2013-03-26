@@ -1,0 +1,4 @@
+#!/bin/bash
+
+curl -ik -XDELETE -H "Content-Type: application/json" -H "X-Auth-Project-Id: nova" -H "X-Auth-Token: admin:nova" http://127.0.0.1:9696/v2.0/ports/d585f16d-30b7-4b7a-99e4-a280214651ae/ip_address/2a6337db-e9f5-4331-a6b7-edc730940851.json
+echo;
