@@ -1,3 +1,0 @@
-#!/bin/bash
-
-quantum subnet-create mynet 192.168.10.1/24

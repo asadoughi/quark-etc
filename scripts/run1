@@ -1,7 +1,0 @@
-#!/bin/bash
-
-./create-network
-./create-subnet
-./create-mar
-./create-port
-./create-ip
